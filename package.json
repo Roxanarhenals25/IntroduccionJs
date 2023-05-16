@@ -1,0 +1,24 @@
+{
+  "name": "listajs",
+  "version": "1.0.0",
+  "description": "Mi segundo ejercicio de javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "mode index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roxanarhenals25/ListaJs.git"
+  },
+  "keywords": [
+    "ListaJs",
+    "segundo proyecto"
+  ],
+  "author": "Roxana Rhenals",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roxanarhenals25/ListaJs/issues"
+  },
+  "homepage": "https://github.com/Roxanarhenals25/ListaJs#readme"
+}
