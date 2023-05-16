@@ -11,4 +11,3 @@ const particulars = [
         }
     }
 ]
-console.log(favBook.date)
