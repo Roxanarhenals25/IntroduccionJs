@@ -11,3 +11,27 @@ const particulars = [
         }
     }
 ]
+console.log(particulars)
+
+
+const winston = require('winston');
+const logger = winston.createLogger({
+  level: 'info',
+  format: winston.format.json(),
+  defaultMeta: { service: 'user-service' },
+  transports: [
+    new winston.transports.File({ filename: 'error.log', level: 'error' }),
+    new winston.transports.File({ filename: 'combined.log' }),
+  ],
+});
+module.exports = logger;
+
+function throwCustomError(message) {
+    throw new Error(message);
+  }
+  try {
+    throwCustomError("Este es mi mensaje de error personalizado");
+  } catch (error) {
+    console.error(error.message);
+  }
+
