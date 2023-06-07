@@ -11,3 +11,12 @@ const particulars = [
         }
     }
 ]
+
+function throwCustomError(message) {
+    throw new Error(message);
+  }
+  try {
+    throwCustomError("Este es mi mensaje de error personalizado");
+  } catch (error) {
+    console.error(error.message);
+  }
