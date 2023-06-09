@@ -34,4 +34,3 @@ function throwCustomError(message) {
   } catch (error) {
     console.error(error.message);
   }
-
