@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Roxanarhenals25/ListaJs.git"
+    "url": "git+https://github.com/Roxanarhenals25/IntroduccionJs.git"
   },
   "keywords": [
     "ListaJs",
@@ -17,9 +17,9 @@
   "author": "Roxana Rhenals",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Roxanarhenals25/ListaJs/issues"
+    "url": "https://github.com/Roxanarhenals25/IntroduccionJs/issues"
   },
-  "homepage": "https://github.com/Roxanarhenals25/ListaJs#readme",
+  "homepage": "https://github.com/Roxanarhenals25/IntroduccionJs#readme",
   "dependencies": {
     "winston": "^3.9.0"
   }
