@@ -7,7 +7,13 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roxanarhenals25/IntroduccionJs.git"
+  },
+"keywords": [
+  "segundo proyecto"
+  ],
+  "author": "Roxana Rhenals",
   "license": "ISC"
 }
